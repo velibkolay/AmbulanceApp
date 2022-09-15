@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D55987428CE686A0093D85D /* AmbulanceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55987328CE686A0093D85D /* AmbulanceApp.swift */; };
+		1D55987628CE686A0093D85D /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55987528CE686A0093D85D /* WelcomeView.swift */; };
+		1D55987828CE686B0093D85D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D55987728CE686B0093D85D /* Assets.xcassets */; };
+		1D55987B28CE686B0093D85D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D55987A28CE686B0093D85D /* Preview Assets.xcassets */; };
+		1D55988228CE68D40093D85D /* AmbulanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55988128CE68D40093D85D /* AmbulanceView.swift */; };
+		1D55988528CE6DCD0093D85D /* AppColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D55988428CE6DCD0093D85D /* AppColor.swift */; };
+		1D55988928CE8A740093D85D /* Birds of Paradise И PERSONAL USE ONLY.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1D55988828CE8A740093D85D /* Birds of Paradise И PERSONAL USE ONLY.ttf */; };
+		1D55988B28CE8B710093D85D /* Blacksword.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1D55988A28CE8B710093D85D /* Blacksword.otf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1D55987028CE686A0093D85D /* Ambulance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ambulance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D55987328CE686A0093D85D /* AmbulanceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulanceApp.swift; sourceTree = "<group>"; };
+		1D55987528CE686A0093D85D /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		1D55987728CE686B0093D85D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1D55987A28CE686B0093D85D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1D55988128CE68D40093D85D /* AmbulanceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbulanceView.swift; sourceTree = "<group>"; };
+		1D55988428CE6DCD0093D85D /* AppColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppColor.swift; sourceTree = "<group>"; };
+		1D55988828CE8A740093D85D /* Birds of Paradise И PERSONAL USE ONLY.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Birds of Paradise И PERSONAL USE ONLY.ttf"; sourceTree = "<group>"; };
+		1D55988A28CE8B710093D85D /* Blacksword.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Blacksword.otf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D55986D28CE686A0093D85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D55986728CE686A0093D85D = {
+			isa = PBXGroup;
+			children = (
+				1D55987228CE686A0093D85D /* Ambulance */,
+				1D55987128CE686A0093D85D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1D55987128CE686A0093D85D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D55987028CE686A0093D85D /* Ambulance.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1D55987228CE686A0093D85D /* Ambulance */ = {
+			isa = PBXGroup;
+			children = (
+				1D55988728CE89EF0093D85D /* Fonts */,
+				1D55987328CE686A0093D85D /* AmbulanceApp.swift */,
+				1D55988328CE68E70093D85D /* Views */,
+				1D55987728CE686B0093D85D /* Assets.xcassets */,
+				1D55987928CE686B0093D85D /* Preview Content */,
+				1D55988428CE6DCD0093D85D /* AppColor.swift */,
+			);
+			path = Ambulance;
+			sourceTree = "<group>";
+		};
+		1D55987928CE686B0093D85D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1D55987A28CE686B0093D85D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1D55988328CE68E70093D85D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1D55988128CE68D40093D85D /* AmbulanceView.swift */,
+				1D55987528CE686A0093D85D /* WelcomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		1D55988728CE89EF0093D85D /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1D55988A28CE8B710093D85D /* Blacksword.otf */,
+				1D55988828CE8A740093D85D /* Birds of Paradise И PERSONAL USE ONLY.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D55986F28CE686A0093D85D /* Ambulance */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D55987E28CE686B0093D85D /* Build configuration list for PBXNativeTarget "Ambulance" */;
+			buildPhases = (
+				1D55986C28CE686A0093D85D /* Sources */,
+				1D55986D28CE686A0093D85D /* Frameworks */,
+				1D55986E28CE686A0093D85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ambulance;
+			productName = Ambulance;
+			productReference = 1D55987028CE686A0093D85D /* Ambulance.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1D55986828CE686A0093D85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					1D55986F28CE686A0093D85D = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1D55986B28CE686A0093D85D /* Build configuration list for PBXProject "Ambulance" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1D55986728CE686A0093D85D;
+			productRefGroup = 1D55987128CE686A0093D85D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1D55986F28CE686A0093D85D /* Ambulance */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D55986E28CE686A0093D85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D55987B28CE686B0093D85D /* Preview Assets.xcassets in Resources */,
+				1D55988B28CE8B710093D85D /* Blacksword.otf in Resources */,
+				1D55987828CE686B0093D85D /* Assets.xcassets in Resources */,
+				1D55988928CE8A740093D85D /* Birds of Paradise И PERSONAL USE ONLY.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D55986C28CE686A0093D85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D55987628CE686A0093D85D /* WelcomeView.swift in Sources */,
+				1D55988528CE6DCD0093D85D /* AppColor.swift in Sources */,
+				1D55987428CE686A0093D85D /* AmbulanceApp.swift in Sources */,
+				1D55988228CE68D40093D85D /* AmbulanceView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D55987C28CE686B0093D85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1D55987D28CE686B0093D85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1D55987F28CE686B0093D85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambulance/Preview Content\"";
+				DEVELOPMENT_TEAM = TZ5PYSHTA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbk.Ambulance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1D55988028CE686B0093D85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ambulance/Preview Content\"";
+				DEVELOPMENT_TEAM = TZ5PYSHTA3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.vbk.Ambulance;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D55986B28CE686A0093D85D /* Build configuration list for PBXProject "Ambulance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D55987C28CE686B0093D85D /* Debug */,
+				1D55987D28CE686B0093D85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D55987E28CE686B0093D85D /* Build configuration list for PBXNativeTarget "Ambulance" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D55987F28CE686B0093D85D /* Debug */,
+				1D55988028CE686B0093D85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1D55986828CE686A0093D85D /* Project object */;
+}
