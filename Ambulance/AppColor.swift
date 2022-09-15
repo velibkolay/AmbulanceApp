@@ -11,6 +11,7 @@ import SwiftUI
 struct AppColor {
     static let main = Color(red: 20/255, green: 28/255, blue: 58/255)
     static let accent = Color(red: 48/255, green: 105/255, blue: 240/255)
+    static var speed = 0.31
     
     static var backgroundColor = Color.blue
     

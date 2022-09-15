@@ -10,8 +10,11 @@ import SwiftUI
 struct AmbulanceView: View {
     
     @State var backgroundColor = Color.blue
+    @State var speed = 0.31
     
-    let timer = Timer.publish(every: 0.31, on: .main, in: .common).autoconnect()
+    @State var timer = Timer.publish(every: AppColor.speed, on: .main, in: .common).autoconnect()
+    
+    let timer2 = Timer.publish(every: 1, on: .main, in: .common).autoconnect()
 
 
     var body: some View {
@@ -44,9 +47,24 @@ struct AmbulanceView: View {
                                 .shadow(radius: 99)
                                 
                         }
-
                     })
                     Spacer()
+                        Slider(
+                            value: $speed,
+                            in: 0...1
+                        ) {
+                            Text("Speed")
+                        } minimumValueLabel: {
+                            Text("0")
+                        } maximumValueLabel: {
+                            Text("1")
+                        }
+                        .frame(width: 300, height: 100.0)
+                        .accentColor(/*@START_MENU_TOKEN@*/.white/*@END_MENU_TOKEN@*/)
+                        Text("\(speed)")
+                        .onReceive(timer2) { _ in
+                            timer = Timer.publish(every: speed, on: .main, in: .common).autoconnect()
+                        }
                 }
             }
         }
